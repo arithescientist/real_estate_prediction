@@ -4,22 +4,21 @@
 
 ## Introduction
 
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module 1.
+In this lesson, we'll review all of the guidelines and specifications for the final project for Module 2.
 
 ## Objectives
 You will be able to:
-* Describe all required aspects of the final project for Module 1
+* Describe all required aspects of the final project for Module 2
 * Describe all required deliverables
 * Describe what constitutes a successful project
-* Describe what the experience of the project review should be like
 
 ## Final Project Summary
 
-You've made it all the way through the first module of this course - take a minute to celebrate your awesomeness!
+Another module down--you're half way there!
 
 ![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-2-project-v2-1/master/halfway-there.gif)
 
-All that remains in Module 1 is to put our newfound data science skills to use with a final project! You should expect this project to take between 20 and 25 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
+All that remains in Module 2 is to put our newfound data science skills to use with a final project! You should expect this project to take between 20 and 25 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
 
 ## The Dataset
 
@@ -86,6 +85,7 @@ Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/d
 
 
 ## The Process 
+The process for this project is identical to the process you followed for your module 1 project. We specified it again below as a refresher.
 (Note: On-campus students may have different processes, please speak with your instructor)
 
 ### 1. Getting Started
@@ -94,7 +94,7 @@ Please start by reviewing this document. If you have any questions, please ask t
 
 Be sure to let the instructor team know when you’ve started working on a project, either by reaching out over Slack or, if you are in a full-time or part-time cohort, by connecting with your Cohort Lead in your weekly 1:1. If you’re not sure who to reach out to, post in the #online-ds-sp-000 channel in Slack.
 
-Once you're done with the first 8 sections, please start on the project. Do that by forking this repository, cloning it locally, and working in the student.ipynb file. Make sure to also add and commit a pdf of your presentation to the repository with a file name of `presentation.pdf`.
+Once you're done with this module, please start on the project. Do that by forking this repository, cloning it locally, and working in the student.ipynb file. Make sure to also add and commit a pdf of your presentation to the repository with a file name of `presentation.pdf`.
 
 ### 2. The Project Review
 
@@ -158,7 +158,3 @@ Online students can find a PDF of the grading rubric for the project [here](http
 ## Summary
 
 The end of module projects and project reviews are a critical part of the program. They give you a chance to both bring together all the skills you've learned into realistic projects and to practice key "business judgement" and communication skills that you otherwise might not get as much practice with.
-
-The projects are serious and important. They are not graded, but they can be passed and they can be failed. Take the project seriously, put the time in, ask for help from your peers or instructors early and often if you need it, and treat the review as a job interview and you'll do great. We're rooting for you to succeed and we're only going to ask you to take a review again if we believe that you need to. We'll also provide open and honest feedback so you can improve as quickly and efficiently as possible.
-
-Finally, this is your first project. We don't expect you to remember all of the terms or to get all of the answers right. If in doubt, be honest. If you don't know something, say so. If you can't remember it, just say so. It's very unusual for someone to complete a project review without being asked a question they're unsure of, we know you might be nervous which may affect your performance. Just be as honest, precise and focused as you can be, and you'll do great!
