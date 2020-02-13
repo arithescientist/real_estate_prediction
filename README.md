@@ -14,7 +14,7 @@ You will be able to:
 
 ## Final Project Summary
 
-Another module down--you're half way there!
+Another module down--you're almost half way there!
 
 ![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-2-project-v2-1/master/halfway-there.gif)
 
@@ -152,7 +152,7 @@ _Reminder: Make sure to also add and commit a pdf of your non-technical presenta
  
  
 ## Grading Rubric
-Online students can find a PDF of the grading rubric for the project [here](https://github.com/learn-co-curriculum/dsc-v2-mod2-final-project/blob/master/module2_project_rubric.pdf). On-campus students may have different review processes, please speak with your instructor.
+Online students can find a PDF of the grading rubric for the project [here](https://github.com/learn-co-curriculum/dsc-mod-2-project-v2-1/blob/master/mod2_project_rubric.pdf). On-campus students may have different review processes, please speak with your instructor.
 
 
 ## Summary
