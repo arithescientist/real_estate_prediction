@@ -1,160 +1,159 @@
-
-# Module 2 Final Project
-
-
-## Introduction
-
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module 2.
-
-## Objectives
-You will be able to:
-* Describe all required aspects of the final project for Module 2
-* Describe all required deliverables
-* Describe what constitutes a successful project
-
-## Final Project Summary
-
-Another module down--you're almost half way there!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-2-project-v2-1/master/halfway-there.gif)
-
-All that remains in Module 2 is to put our newfound data science skills to use with a final project! You should expect this project to take between 20 and 25 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
-
-## The Dataset
-
-For this project, you'll be working with the King County House Sales dataset. We've modified the dataset to make it a bit more fun and challenging.  The dataset can be found in the file `"kc_house_data.csv"`, in this repo.
-
-The description of the column names can be found in the column_names.md file in this repository. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means.
-
-You'll clean, explore, and model this dataset with a multivariate linear regression to predict the sale price of houses as accurately as possible.
-
-## The Deliverables
-
-For online students, there will be five deliverables for this project (Note: On-campus students may have different requirements, please speak with your instructor):
-
-1. A well documented **Jupyter Notebook** containing any code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project.  
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
-3. A short **Keynote/PowerPoint/Google Slides presentation** (delivered as a PDF export) giving a high-level overview of your methodology and recommendations for non-technical stakeholders. Make sure to also add and commit this pdf of your non-technical presentation to your repository with a file name of presentation.pdf.
-4. **[A Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging-v2-1)**	
-5. A **Video Walkthrough** of your non-technical presentation. Some common video recording tools used are Zoom, Quicktime, and Nimbus. After you record your presentation, publish it on a service like YouTube or Google Drive, you will need a link to the video to submit your project.
-
-Note: On-campus students may have different requirements, please speak with your instructor.
-
-### Jupyter Notebook Must-Haves
-
-For this project, your Jupyter Notebook should meet the following specifications:
-
-#### Organization/Code Cleanliness
-
-* The notebook should be well organized, easy to follow,  and code should be commented where appropriate.  
-    * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code.  All functions have docstrings that act as professional-quality documentation
-* The notebook is written for technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings.
-
-#### Visualizations & EDA
-
-* Your project contains at least 4 meaningful data visualizations, with corresponding interpretations. All visualizations are well labeled with axes labels, a title, and a legend (when appropriate)  
-* You pose at least 3 meaningful questions and answer them through EDA.  These questions should be well labeled and easy to identify inside the notebook.
-    * **Level Up**: Each question is clearly answered with a visualization that makes the answer easy to understand.   
-* Your notebook should contain 1 - 2 paragraphs briefly explaining your approach to this project.
-
-#### Model Quality/Approach
-
-* Your model should not include any predictors with p-values greater than .05.  
-* Your notebook shows an iterative approach to modeling, and details the parameters and results of the model at each iteration.  
-    * **Level Up**: Whenever necessary, you briefly explain the changes made from one iteration to the next, and why you made these choices.  
-* You provide at least 1 paragraph explaining your final model.   
-* You pick at least 3 coefficients from your final model and explain their impact on the price of a house in this dataset.   
+# Investigating the Housing Industry In Kings County
 
 
-### Non-Technical Presentation Must-Haves
+<a href="https://github.com/ariavathlete/dsc-mod-2-project-v2-1-onl01-dtsc-ft-041320/blob/master/Document14.pdf"> Blog </a>
+<a href="https://github.com/ariavathlete/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/Success%20in%20the%20Movie%20Industry.pdf
+"> Presentation </a>
+<a href="https://drive.google.com/file/d/132X3UY9H_6BgXfvcBY1MgIdgHzgqQWP-/view?usp=sharing"> Video Recording </a>
 
-Another deliverable should be a Keynote, PowerPoint or Google Slides presentation delivered as a pdf file in your fork of this repository with the file name of `presentation.pdf` detailing the results of your project.  Your target audience is non-technical people interested in using your findings to maximize their profit when selling their home.
+# Table Of Contents
+* [Purpose](#purpose)
+* [Data Files](#data-description)
+* [Question 1](#question-1)
+* [Question 2](#question-2)
+* [Question 3](#question-3)
+* [Future Work](#future-work)
+  
+<!---
+# = h1
+## = h2
+### = h3
+#### = h4
+##### = h5
+--->
 
-Your presentation should:
-
-* Contain between 5 - 10 professional-quality slides.  
-    * **Level Up**: The slides should use visualizations whenever possible, and avoid walls of text.
-* Take no more than 5 minutes to present.   
-* Avoid technical jargon and explain the results in a clear, actionable way for non-technical audiences.   
-
-**_Based on the results of your models, your presentation should discuss at least two concrete features that highly influence housing prices._**
-
-### Blog Post Must-Haves
-
-Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/dsc-welcome-blogging-v2-1) for the technical requirements and blog ideas.
-
-
-## The Process 
-The process for this project is identical to the process you followed for your module 1 project. We specified it again below as a refresher.
-(Note: On-campus students may have different processes, please speak with your instructor)
-
-### 1. Getting Started
-
-Please start by reviewing this document. If you have any questions, please ask them in Slack ASAP so (a) we can answer the questions and (b) so we can update this repository to make it clearer.
-
-Be sure to let the instructor team know when you’ve started working on a project, either by reaching out over Slack or, if you are in a full-time or part-time cohort, by connecting with your Cohort Lead in your weekly 1:1. If you’re not sure who to reach out to, post in the #online-ds-sp-000 channel in Slack.
-
-Once you're done with this module, please start on the project. Do that by forking this repository, cloning it locally, and working in the student.ipynb file. Make sure to also add and commit a pdf of your presentation to the repository with a file name of `presentation.pdf`.
-
-### 2. The Project Review
-
-_Note: On-campus students may have different review processes, please speak with your instructor._
-
-> **When you start on the project, please also reach out to an instructor immediately to schedule your project review** (if you're not sure who to schedule with, please ask in Slack!)
-
-#### What to expect from the Project Review
-
-Project reviews are focused on preparing you for technical interviews. Treat project reviews as if they were technical interviews, in both attitude and technical presentation *(sometimes technical interviews will feel arbitrary or unfair - if you want to get the job, commenting on that is seldom a good choice)*.
-
-The project review is comprised of a 45 minute 1:1 session with one of the instructors. During your project review, be prepared to:
-
-#### 1. Deliver your PDF presentation to a non-technical stakeholder.
-In this phase of the review (~10 mins) your instructor will play the part of a non-technical stakeholder that you are presenting your findings to. The presentation  should not exceed 5 minutes, giving the "stakeholder" 5 minutes to ask questions.
-
-In the first half of the presentation (2-3 mins), you should summarize your methodology in a way that will be comprehensible to someone with no background in data science and that will increase their confidence in you and your findings. In the second half (the remaining 2-3 mins) you should summarize your findings and be ready to answer a couple of non-technical questions from the audience. The questions might relate to technical topics (sampling bias, confidence, etc) but will be asked in a non-technical way and need to be answered in a way that does not assume a background in statistics or machine learning. You can assume a smart, business stakeholder, with a non-quantitative college degree.
-
-#### 2. Go through the Jupyter Notebook, answering questions about how you made certain decisions. Be ready to explain things like:
-    * "How did you pick the question(s) that you did?"
-    * "Why are these questions important from a business perspective?"
-    * "How did you decide on the data cleaning options you performed?"
-    * "Why did you choose a given method or library?"
-    * "Why did you select those visualizations and what did you learn from each of them?"
-    * "Why did you pick those features as predictors?"
-    * "How would you interpret the results?"
-    * "How confident are you in the predictive quality of the results?"
-    * "What are some of the things that could cause the results to be wrong?"
-
-Think of the first phase of the review (~30 mins) as a technical boss reviewing your work and asking questions about it before green-lighting you to present to the business team. You should practice using the appropriate technical vocabulary to explain yourself. Don't be surprised if the instructor jumps around or sometimes cuts you off - there is a lot of ground to cover, so that may happen.
-
-If any requirements are missing or if significant gaps in understanding are uncovered, be prepared to do one or all of the following:
-* Perform additional data cleanup, visualization, feature selection, modeling and/or model validation
-* Submit an improved version
-* Meet again for another Project Review
-
-What won't happen:
-* You won't be yelled at, belittled, or scolded
-* You won't be put on the spot without support
-* There's nothing you can do to instantly fail or blow it
-
-**Please note: We need to receive the URL of your repository at least 24 hours before and please have the project finished at least 3 hours before your review so we can look at your materials in advance.**
+# Purpose
+The goal of this research is to analyze past housing data in order to predict sell prices of homes and answer the following questions: 
+   * Q1 - How are Houses in Kings County Distributed and the effect of Zipcodes on price?
+   
+   * Q2 - Does distance from the city have an affect on House Price?
+   
+   * Q3 - Are Waterfront properties more expensive?
 
 
-## Submitting your Project
-
- You’re almost done! In order to submit your project for review, include the following links to your work in the corresponding fields on the right-hand side of Learn.
-
- 1. **GitHub Repo:** Now that you’ve completed your project in Jupyter Notebooks, push your work to GitHub and paste that link to the right. (If you need help doing so, review the resources [here](https://docs.google.com/spreadsheets/d/1CNGDhjcQZDRx2sWByd2v-mgUOjy13Cd_hQYVXPuzEDE/edit#gid=0).)
-_Reminder: Make sure to also add and commit a pdf of your non-technical presentation to the repository with a file name of presentation.pdf._
-2. **Blog Post:** Include a link to your blog post.
-3. **Record Walkthrough:** Include a link to your video walkthrough.
-
- Hit "I'm done" to wrap it up. You will receive an email in order to schedule your review with your instructor.
- 
- 
-## Grading Rubric
-Online students can find a PDF of the grading rubric for the project [here](https://github.com/learn-co-curriculum/dsc-mod-2-project-v2-1/blob/master/mod2_project_rubric.pdf). On-campus students may have different review processes, please speak with your instructor.
+# Data Description
+Data files used:
+   * cleaned_geodata.json
+   * data_correlation_gone.csv
+   * datawithnewcols.csv
+   * kc_house_data.csv
+   * Zip_Codes.geojson
 
 
-## Summary
+## Question 1:
+## How are Houses in Kings County Distributed and the effect of Zipcodes on price?
 
-The end of module projects and project reviews are a critical part of the program. They give you a chance to both bring together all the skills you've learned into realistic projects and to practice key "business judgement" and communication skills that you otherwise might not get as much practice with.
+### EDA
+#### [Count by Zipcode](./Q1.ipynb)
+   <img src='images/mapwithcounts.png' width='80%'/> 
+
+#### Price by Zipcode
+   <img src='images/mapwithprice.png' width='80%'/>
+
+### Conclusion
+By analyzing the first map, we can see that zipcodes surrounding Bellevue have more houses than zipcodes further out. Upon closer look at the second map we can see the most expensive homes are concentrated in zipcodes North of the County closer to Bellevue and the cheaper homes are located south of the county. 
+
+### Recommendation
+The North of the County has some of the most expensive properties so I belive this region is in high demand so one could expect a good amount of return by investing in real estate within ths region.
+
+
+# Question 2:
+## Does distance from the city have an affect on House Price?
+
+### EDA
+#### Distance from closest city v Price
+   <img src='images/distancexprice.png' width='80%'/>
+
+#### Price v Size
+   <img src='images/pricexsize.png' width='80%'/>
+
+#### Distance from biggest city (Seattle) v Size
+   <img src='images/seattlexsize.png' width='80%'/>
+
+### Conclusion
+By looking at the plot we can see houses above $1 milllion are located withing 20km of Bellevue. And for homes within 50km of Seattle, Although the price/house increases the bigger the sqft, the price/sqft reduces the the further away from Seattle a house is.
+
+### Recommendation
+Ill definitely recommend investing in homes 50km from Seattle which is also about 20km from Bellevue. By doing this you'll get more space for a less price which will also translate into higher returns.
+
+
+# Question 3:
+## Are Waterfront properties more expensive?
+
+### EDA
+   <img src='images/waterfront.png' width='80%'/>
+
+### Conclusion
+From analyzing the violin plots we can conclude that waterfront properties are more expensive than others with a mean and median price of $1.7 million and $1.5 million. Homes without a waterfront have a mean and median price of $532 thousand and $450 thousand respectively.
+
+### Recommendation
+Investing in waterfront properties would definitely be a smart move given there a difference of $1 million between the average home prices of a waterfront and no waterfront property.
+
+
+# [Model 1](./models/model1.ipynb)
+For the first model the independent variables I used were:
+   * Grade
+   * Area of inside home
+   * Area of parking lot
+   * Presence of waterfront
+   * Age of home
+   * Distance from Seattle
+   * Distance from the airport
+
+The equation for this model is:
+    Price = (84890 * Area inside) + (-672.2227 * Area parking lot) + (341400 * Presence of waterfront) + (33230 * Age) + (-85020 * Distance from City) + (84890 * Distance from Airport) + (-44920 * Grade 5) + (-44720 * Grade 6) + (12400 * Grade 7) + (94390 * Grade 8) + (263600 * Grade 9) + (264300 * Grade 10) + (359800 * Grade 11)
+
+### EDA
+   <img src='images/model1.png' width='80%'/>
+
+## Interpretion
+The model uses the price of the home based on grade, then a positive adjustment is made for the area inside, presence of a waterfront, age, distance from airport, followed by a negative adjustment for area of the parking lot and distance from the city. The R2 score means theres a 71.7% variance in price.
+
+
+# [Model 2](./model/model2.ipynb)
+For the first model the independent variables I used were:
+   * Grade
+   * View
+   * Area of inside home
+   * Area of parking lot
+   * Presence of waterfront
+   * Age of home
+   * Distance from Seattle
+   * Distance from the airport
+
+The equation for this model is:
+    Price = (92650 * Area inside) + (-674.9984 * Area parking lot) + (226400 * Presence of waterfront) + (25930 * Age) + (-86480 * Distance from City) + (51940 * Distance from Airport) + (61750 * Grade) + (33280 * View) 
+
+### EDA
+   <img src='images/model2.png' width='80%'/>
+
+
+## Interpretation
+The model uses the price of the home based on grade, then a positive adjustment is made for the area inside, presence of a waterfront, age, distance from airport and view, followed by a negative adjustment for area of the parking lot and distance from the city. The R2 score means theres a 95.5% variance in price.
+
+
+# [Final Model](./models/Final_Model.ipynb)
+For the first model the independent variables I used were:
+   * Grade
+   * Area of inside home
+   * Area of parking lot
+   * Number of bedrooms
+   * Number of bathrooms
+   * Distance from closest city
+
+The equation for this model is:
+    Price = (84541 * Area inside) + (24190 * Area parking lot) + (-12510 * Number of bedrooms) + (3849.4898 * Number of bathrooms) + (-109100 * Distance from City) + (429646 * Grade 4) + (410804 * Grade 5) + (400781 * Grade 6) + (441474 * Grade 7) + (499282 * Grade 8) + (588835 * Grade 9) + (648431 * Grade 10) + (707515 * Grade 11)
+
+### EDA
+   <img src='images/final.png' width='80%'/>
+
+
+## Interpretation
+The model uses the price of the home based on grade, then a positive adjustment is made for the area inside, area of parking lot, bathrooms, followed by a negative adjustment for bedrooms and distance from the city. The R2 score means theres a 70.1% variance in price.
+
+# Future Work
+   * Zip code Feature - Create a boundary selector to enable the model to predict price depending on zip code.
+
+   * More Data - Collate data for the passed 20 years to see how the house prices have changed and also the distinct trends, such as malls, theatres, etc. in different zip codes and how they effect the prices of homes.
+   
+   * Explore the effects of the distance from a city on presence and size of a basement.
