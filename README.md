@@ -1,11 +1,11 @@
 # Investigating the Housing Industry In Kings County
 
 
-<a href="https://github.com/ariavathlete/dsc-mod-2-project-v2-1-onl01-dtsc-ft-041320/blob/master/Document14.pdf"> Blog </a>
+<a href="https://github.com/ariavathlete/dsc-mod-2-project-v2-1-onl01-dtsc-ft-041320/blob/master/How%20Covid-19%20On%20The%20Housing%20Industry.pdf"> Blog </a>
 <a href="https://github.com/ariavathlete/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/Success%20in%20the%20Movie%20Industry.pdf
 "> Presentation </a>
 <a href="https://drive.google.com/file/d/132X3UY9H_6BgXfvcBY1MgIdgHzgqQWP-/view?usp=sharing"> Video Recording </a>
-
+<img src='images/mapwithcountss.png' width='80%'/>
 # Table Of Contents
 * [Purpose](#purpose)
 * [Data Files](#data-description)
@@ -74,7 +74,7 @@ The North of the County has some of the most expensive properties so I belive th
 By looking at the plot we can see houses above $1 milllion are located withing 20km of Bellevue. And for homes within 50km of Seattle, Although the price/house increases the bigger the sqft, the price/sqft reduces the the further away from Seattle a house is.
 
 ### Recommendation
-Ill definitely recommend investing in homes 50km from Seattle which is also about 20km from Bellevue. By doing this you'll get more space for a less price which will also translate into higher returns.
+I'll definitely recommend investing in homes 50km from Seattle which is also about 20km from Bellevue. By doing this you'll get more space for a less price which will also translate into higher returns.
 
 
 # Question 3:
@@ -84,7 +84,7 @@ Ill definitely recommend investing in homes 50km from Seattle which is also abou
    <img src='images/waterfront.png' width='80%'/>
 
 ### Conclusion
-From analyzing the violin plots we can conclude that waterfront properties are more expensive than others with a mean and median price of $1.7 million and $1.5 million. Homes without a waterfront have a mean and median price of $532 thousand and $450 thousand respectively.
+From analyzing the violin plots we can conclude that waterfront properties are more expensive than others with a mean and median price of $1.7 million and $1.5 million. Homes without a waterfront have a mean and median price of $532,000 and $450,000 respectively.
 
 ### Recommendation
 Investing in waterfront properties would definitely be a smart move given there a difference of $1 million between the average home prices of a waterfront and no waterfront property.
