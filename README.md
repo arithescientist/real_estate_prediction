@@ -23,10 +23,10 @@
 --->
 
 # Purpose
-The goal of this research is to analyze past housing data in order to predict sell prices of homes and answer the following questions: 
+The goal of this research is to analyze past housing data in order to predict the sell prices of homes and answer the following questions: 
    * Q1 - How are Houses in Kings County Distributed and the effect of Zipcodes on price?
    
-   * Q2 - Does distance from the city have an affect on House Price?
+   * Q2 - Does distance from the city have an effect on House Price?
    
    * Q3 - Are Waterfront properties more expensive?
 
