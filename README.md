@@ -104,7 +104,7 @@ The equation for this model is:
     Price = (84890 * Area inside) + (-672.2227 * Area parking lot) + (341400 * Presence of waterfront) + (33230 * Age) + (-85020 * Distance from City) + (84890 * Distance from Airport) + (-44920 * Grade 5) + (-44720 * Grade 6) + (12400 * Grade 7) + (94390 * Grade 8) + (263600 * Grade 9) + (264300 * Grade 10) + (359800 * Grade 11)
 
 ### EDA
-   <img src='images/model1.png' width='80%'/>
+   <img src='images/model1.PNG' width='80%'/>
 
 ## Interpretion
 The model uses the price of the home based on grade, then a positive adjustment is made for the area inside, presence of a waterfront, age, distance from airport, followed by a negative adjustment for area of the parking lot and distance from the city. The R2 score means theres a 71.7% variance in price.
@@ -125,7 +125,7 @@ The equation for this model is:
     Price = (92650 * Area inside) + (-674.9984 * Area parking lot) + (226400 * Presence of waterfront) + (25930 * Age) + (-86480 * Distance from City) + (51940 * Distance from Airport) + (61750 * Grade) + (33280 * View) 
 
 ### EDA
-   <img src='images/model2.png' width='80%'/>
+   <img src='images/model2.PNG' width='80%'/>
 
 
 ## Interpretation
@@ -145,7 +145,7 @@ The equation for this model is:
     Price = (84541 * Area inside) + (24190 * Area parking lot) + (-12510 * Number of bedrooms) + (3849.4898 * Number of bathrooms) + (-109100 * Distance from City) + (429646 * Grade 4) + (410804 * Grade 5) + (400781 * Grade 6) + (441474 * Grade 7) + (499282 * Grade 8) + (588835 * Grade 9) + (648431 * Grade 10) + (707515 * Grade 11)
 
 ### EDA
-   <img src='images/final.png' width='80%'/>
+   <img src='images/Final.png' width='80%'/>
 
 
 ## Interpretation
