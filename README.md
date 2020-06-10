@@ -43,8 +43,8 @@ Data files used:
 ## Question 1:
 ## How are Houses in Kings County Distributed and the effect of Zipcodes on price?
 
-### EDA
-#### [Count by Zipcode](./Q1.ipynb)
+### [EDA](./Questions/Question1.ipynb)
+#### Count by Zipcode
    <img src='images/mapwithcounts.png' width='80%'/> 
 
 #### Price by Zipcode
@@ -60,7 +60,7 @@ The North of the County has some of the most expensive properties so I belive th
 # Question 2:
 ## Does distance from the city have an affect on House Price?
 
-### EDA
+### [EDA](./Questions/Question2.ipynb)
 #### Distance from closest city v Price
    <img src='images/distancexprice.png' width='80%'/>
 
@@ -80,7 +80,7 @@ Ill definitely recommend investing in homes 50km from Seattle which is also abou
 # Question 3:
 ## Are Waterfront properties more expensive?
 
-### EDA
+### [EDA](./Questions/Question3.ipynb)
    <img src='images/waterfront.png' width='80%'/>
 
 ### Conclusion
