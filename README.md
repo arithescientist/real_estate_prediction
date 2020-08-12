@@ -4,7 +4,6 @@
 
 <a href="https://github.com/ariavathlete/dsc-mod-2-project-v2-1-onl01-dtsc-ft-041320/blob/master/Analysis%20of%20Kings%20County%20Housing%20Prices%20Presentation.pdf"> Presentation </a>
 <a href="https://github.com/ariavathlete/dsc-mod-2-project-v2-1-onl01-dtsc-ft-041320/blob/master/How%20Covid-19%20On%20The%20Housing%20Industry.pdf"> Blog </a>
-<a href="https://drive.google.com/file/d/1CTREwkXeR1wefkl-wycMpkm00bjvKnfz/view?usp=sharing"> Video </a>
 
 <img src='images/mapswithcountss.png' width='80%'/>
 
