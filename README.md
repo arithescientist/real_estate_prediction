@@ -1,10 +1,5 @@
 # Investigating the Housing Industry In Kings County
 
-
-
-<a href="https://github.com/ariavathlete/dsc-mod-2-project-v2-1-onl01-dtsc-ft-041320/blob/master/Analysis%20of%20Kings%20County%20Housing%20Prices%20Presentation.pdf"> PRESENTATION</a>
-<a href="https://github.com/ariavathlete/dsc-mod-2-project-v2-1-onl01-dtsc-ft-041320/blob/master/How%20Covid-19%20On%20The%20Housing%20Industry.pdf">| BLOG </a>
-
 <img src='images/mapswithcountss.png' width='60%'/>
 
 # Table Of Contents
